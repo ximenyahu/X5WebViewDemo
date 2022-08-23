@@ -3,14 +3,14 @@ package com.simon.x5webviewdemo.ui.dashboard
 import android.annotation.SuppressLint
 import android.app.Application
 import android.content.DialogInterface
-import android.graphics.Bitmap
 import android.net.Uri
 import android.text.InputType
-import android.util.Log
 import android.widget.EditText
 import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.ViewModel
-import com.tencent.smtt.export.external.interfaces.*
+import com.tencent.smtt.export.external.interfaces.GeolocationPermissionsCallback
+import com.tencent.smtt.export.external.interfaces.JsPromptResult
+import com.tencent.smtt.export.external.interfaces.JsResult
 import com.tencent.smtt.sdk.ValueCallback
 import com.tencent.smtt.sdk.WebChromeClient
 import com.tencent.smtt.sdk.WebView
